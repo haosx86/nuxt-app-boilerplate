@@ -1,0 +1,42 @@
+{
+    "root": true,
+    "env": {
+      "browser": true,
+      "node": true
+    },
+    "parserOptions": {
+      "parser": "babel-eslint",
+      "ecmaVersion": 6,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    },
+    "extends": [
+      "eslint:recommended",
+      "plugin:vue/recommended",
+      "airbnb-base"
+    ],
+    "plugins": [
+      "vue"
+    ],
+    "rules": {
+      "indent": ["error", 2],
+      "comma-dangle": 0,
+      "template-curly-spacing": 0,
+      "arrow-parens": 0,
+      "linebreak-style": 0,
+      "semi": [2, "never"],
+      "vue/max-attributes-per-line": "off",
+      "vue/component-name-in-template-casing": 0,
+      "no-param-reassign": 0
+    },
+    "settings": {
+      "import/resolver": {
+          "nuxt-import": {
+            "extensions": [".mjs", ".js", ".vue", ".graphql", ".json"]
+          }
+      }
+    }
+  }
+  

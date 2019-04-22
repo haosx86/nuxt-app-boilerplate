@@ -1,0 +1,15 @@
+{
+    "eslint.enable": true,
+    "editor.tabSize": 2,
+    "editor.renderWhitespace": "boundary",
+    "editor.insertSpaces": true,
+    "eslint.options": {
+        "extensions": [".js", ".vue"]
+    },
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        { "language": "vue", "autoFix": true },
+        { "language": "html", "autoFix": true }
+    ]
+}
